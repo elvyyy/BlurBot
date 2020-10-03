@@ -22,16 +22,16 @@
  Бот использует платформу [telegram-dl](https://telegram.org/) для взаимодействия с пользователем. И [telegram API](https://core.telegram.org/) для взаимодействия с платформой Telegram. <br>
 #### 2.2. Интерфейс пользователя <a name="2.2"></a>
 * Пользовательский интерфейс при первом использовании. <br>
-    ![img_0](https://github.com/elvyyy/BlurBot/blob/master/img/start-frame.png)
+    ![start-frame.png](https://github.com/elvyyy/BlurBot/blob/master/img/start-frame.png)
     <p/>
 * Пользовательский интерфейс после первого использования. <br>
     ![img_1](https://github.com/theAngryBeavers/TelegramBot/blob/main/documentation/images/img_1.png)
     <p/>
 * Пользователь отправил сообщение не в формате `mp3/mp4 youtubeLink`. <br>
-    ![img_2](https://github.com/elvyyy/BlurBot/blob/master/img/sending-not-image-frame.png)
+    ![sending-not-image-frame.png](https://github.com/elvyyy/BlurBot/blob/master/img/sending-not-image-frame.png)
     <p/>
 * Пользователь отправил сообщение в формате `mp3/mp4 youtubeLink`. <br>
-    ![img_3](https://github.com/elvyyy/BlurBot/blob/master/img/sending-image.png)
+    ![sending-image.png](https://github.com/elvyyy/BlurBot/blob/master/img/sending-image.png)
     <p/>
 * Пользователь отправил сообщение в формате `mp3/mp4 youtubeLink` и ссылка оказалась неверной. <br>
     ![img_4](https://github.com/theAngryBeavers/TelegramBot/blob/main/documentation/images/img_4.png)
