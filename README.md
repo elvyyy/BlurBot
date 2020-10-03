@@ -19,12 +19,10 @@
 
 ### 2. Требования пользователя <a name="2"></a>
 #### 2.1. Программные интерфейсы <a name="2.1"></a>
- Проект использует платформу [youtube-dl](https://youtube-dl.org/) для скачивания видеофайлов с [YouTube](https://www.youtube.com/). И [youtubedl-java API](https://github.com/lepouletsuisse/youtubedl-java) для взаимодействия с платформой youtube-dl. <br>
- Для извлечения аудиодорожки из видеофайла используется библиотека [JAVE (Java Audio Video Encoder)](http://www.sauronsoftware.it/projects/jave/). <br>
- Для взаимодействия с [Telegram](https://telegram.org/) используется [Spring framework](https://spring.io/projects/spring-framework) совместно с [Telegram API](https://core.telegram.org/api).
+ Бот использует платформу [telegram-dl](https://telegram.org/) для взаимодействия с пользователем. И [telegram API](https://core.telegram.org/) для взаимодействия с платформой Telegram. <br>
 #### 2.2. Интерфейс пользователя <a name="2.2"></a>
 * Пользовательский интерфейс при первом использовании. <br>
-    ![img_0](https://github.com/theAngryBeavers/TelegramBot/blob/main/documentation/images/img_0.png)
+    ![img_0](https://github.com/elvyyy/BlurBot/blob/master/img/start-frame.png)
     <p/>
 * Пользовательский интерфейс после первого использования. <br>
     ![img_1](https://github.com/theAngryBeavers/TelegramBot/blob/main/documentation/images/img_1.png)
@@ -33,7 +31,7 @@
     ![img_2](https://github.com/theAngryBeavers/TelegramBot/blob/main/documentation/images/img_2.png)
     <p/>
 * Пользователь отправил сообщение в формате `mp3/mp4 youtubeLink`. <br>
-    ![img_3](https://github.com/theAngryBeavers/TelegramBot/blob/main/documentation/images/img_3.png)
+    ![img_3](https://github.com/elvyyy/BlurBot/blob/master/img/sending-image.png)
     <p/>
 * Пользователь отправил сообщение в формате `mp3/mp4 youtubeLink` и ссылка оказалась неверной. <br>
     ![img_4](https://github.com/theAngryBeavers/TelegramBot/blob/main/documentation/images/img_4.png)
@@ -49,8 +47,8 @@
  
  Пользователю предоставлены следующие возможности:
    1. начать диалог с ботом;
-   2. общаться с ботом посредством отправки ему сообщений вида `mp3/mp4 youtubeLink`;
-   3. получать от бота файлы формата `.mp3` или `.mp4`;
+   2. взаимодействовать с ботом посредством отправки ему сообщений;
+   3. получать от бота файлы изображений;
    4. удалить бота.
    
  #### 3.2 Нефункциональные требования <a name="3.2"></a>
