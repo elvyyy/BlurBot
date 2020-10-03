@@ -28,7 +28,7 @@
     ![img_1](https://github.com/theAngryBeavers/TelegramBot/blob/main/documentation/images/img_1.png)
     <p/>
 * Пользователь отправил сообщение не в формате `mp3/mp4 youtubeLink`. <br>
-    ![img_2](https://github.com/theAngryBeavers/TelegramBot/blob/main/documentation/images/img_2.png)
+    ![img_2](https://github.com/elvyyy/BlurBot/blob/master/img/sending-not-image-frame.png)
     <p/>
 * Пользователь отправил сообщение в формате `mp3/mp4 youtubeLink`. <br>
     ![img_3](https://github.com/elvyyy/BlurBot/blob/master/img/sending-image.png)
