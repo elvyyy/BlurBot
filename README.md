@@ -17,7 +17,10 @@
 Данный бот предоставляет быстрое сокрытие лиц на фотографии.
 ### 2. Требования пользователя <a name="2"></a>
 #### 2.1. Программные интерфейсы <a name="2.1"></a>
- Бот использует платформу [telegram-dl](https://telegram.org/) для взаимодействия с пользователем. И [telegram API](https://core.telegram.org/) для взаимодействия с платформой Telegram. <br>
+ * Бот использует платформу [telegram-dl](https://telegram.org/) для взаимодействия с пользователем.
+ * [telegram API](https://core.telegram.org/) для взаимодействия с платформой Telegram. <br>
+ * Spring Boot
+ * JUnit 5.1 - Фреймворк для создания модульный тестов.
 #### 2.2. Интерфейс пользователя <a name="2.2"></a>
 * Пользовательский интерфейс при первом использовании. <br>
     ![start-frame.png](https://github.com/elvyyy/BlurBot/blob/master/img/start-frame.png)
