@@ -2,7 +2,6 @@ package by.bsuir.blurbot.util;
 
 import by.bsuir.blurbot.domain.ApplicationProperties;
 import lombok.extern.slf4j.Slf4j;
-import org.json.Property;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -41,5 +40,4 @@ public class PropertyReaderUtil {
         applicationProperties.setBotUsername(properties.getProperty("name", ""));
         applicationProperties.setCmlFile(properties.getProperty("cmlFile", ""));
     }
-
 }

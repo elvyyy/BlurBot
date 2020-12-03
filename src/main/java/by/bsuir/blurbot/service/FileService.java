@@ -43,5 +43,4 @@ public class FileService {
     public java.io.File getPhoto(PhotoSize photoSize) throws TelegramApiException {
         return BlurBot.getInstance().downloadFile(getFilePath(photoSize));
     }
-
 }

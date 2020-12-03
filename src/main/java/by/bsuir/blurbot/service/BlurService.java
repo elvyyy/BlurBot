@@ -1,7 +1,10 @@
 package by.bsuir.blurbot.service;
 
 import lombok.extern.slf4j.Slf4j;
-import org.opencv.core.*;
+import org.opencv.core.Mat;
+import org.opencv.core.MatOfRect;
+import org.opencv.core.Rect;
+import org.opencv.core.Size;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 import org.opencv.objdetect.CascadeClassifier;
@@ -22,8 +25,6 @@ public class BlurService {
 
     private BlurService() {
     }
-
-
 
     public File blurFaces(File file) {
         Mat img = Imgcodecs.imread(file.getAbsolutePath());
@@ -51,7 +52,6 @@ public class BlurService {
             if (width % 2 == 0) {
                 width = -1;
             }
-            //Imgproc.rectangle(rectMat, new Point(rect.x, rect.y), new Point(rect.x + rect.width, rect.y + rect.height), new Scalar(0, 0, 255), 3);
             Imgproc.GaussianBlur(region, region, new Size(height, width), 57, 57);
 
         }
@@ -59,7 +59,6 @@ public class BlurService {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd-HH-mm-ss");
         String pathToStore = String.format("src/main/resources/%s.jpg", LocalDateTime.now().format(formatter));
         Imgcodecs.imwrite(pathToStore, img);
-//        Imgcodecs.imwrite("src/main/resources/rect.jpg", rectMat);
         return new File(pathToStore);
     }
 }

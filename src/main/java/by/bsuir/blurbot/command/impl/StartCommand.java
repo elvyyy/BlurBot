@@ -6,7 +6,6 @@ import by.bsuir.blurbot.service.BotUserService;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.User;
 
-import java.util.Optional;
 import java.util.StringJoiner;
 
 public class StartCommand implements Command {

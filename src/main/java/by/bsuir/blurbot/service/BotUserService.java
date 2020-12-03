@@ -2,7 +2,6 @@ package by.bsuir.blurbot.service;
 
 import by.bsuir.blurbot.context.impl.BotContext;
 import by.bsuir.blurbot.domain.BotUser;
-import org.telegram.telegrambots.meta.api.objects.User;
 
 import java.util.Optional;
 

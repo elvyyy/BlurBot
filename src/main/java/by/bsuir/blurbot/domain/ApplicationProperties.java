@@ -1,6 +1,5 @@
 package by.bsuir.blurbot.domain;
 
-import lombok.Builder;
 import lombok.Data;
 
 

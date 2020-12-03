@@ -4,9 +4,7 @@ import by.bsuir.blurbot.core.BlurBot;
 import by.bsuir.blurbot.handler.Handler;
 import by.bsuir.blurbot.service.BlurService;
 import by.bsuir.blurbot.service.FileService;
-import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.methods.send.SendPhoto;
-import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.PhotoSize;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
@@ -27,6 +25,4 @@ public class BlurUserPhotoHandler implements Handler {
 
         BlurBot.getInstance().execute(sendPhoto);
     }
-
-
 }
